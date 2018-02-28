@@ -26,7 +26,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Pixel Perfect',
+            title: 'Pixel Perfect Front End',
             template: 'src/index.html',
             favicon: 'assets/favicon.ico'
         })
