@@ -65,3 +65,6 @@ dist/
 
 # IDE config
 .idea/
+
+# Mac specific
+.DS_Store
