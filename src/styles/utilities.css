@@ -1,0 +1,25 @@
+/**
+Utilities
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: var(--g_dimension-main-width);
+}
+
+.container-full {
+    width: 100%;
+}

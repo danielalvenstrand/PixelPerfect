@@ -1,0 +1,18 @@
+/**
+Todo Form
+*/
+
+form[name='todo-form'] {
+    box-shadow: 0 1px 10px #000000aa;
+    margin: 1.5rem 3rem;
+}
+
+form[name='todo-form'] input[name='todo-input'] {
+    flex-grow: 1;
+    padding: 0 1rem;
+}
+
+form[name='todo-form'] button[type='submit'] {
+    --color-bg: #dce0ca;
+    --color-hover: #c4d08a;
+}

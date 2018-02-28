@@ -1,3 +1,6 @@
+import './todoForm.css';
+import './todoList.css';
+
 class TodoApp {
     /**
      * Binds DOM to javascript variables and class functions to their class.
@@ -64,6 +67,7 @@ class TodoApp {
         todoItem.appendChild(todoItemContent);
 
         const removeTodoButton = document.createElement('button');
+        removeTodoButton.classList.add('remove-button');
         removeTodoButton.innerHTML = 'X';
         removeTodoButton.addEventListener('click', () => this.todoList.removeChild(todoItem));
         todoItem.appendChild(removeTodoButton);
@@ -72,5 +76,4 @@ class TodoApp {
     }
 }
 
-/* Instantiates the main class of the 'todo' app, essentially starting the app */
-new TodoApp();
+export default TodoApp;

@@ -1,0 +1,33 @@
+/**
+Atoms
+*/
+
+.hero-heading {
+    text-shadow: 0 1px 10px #000000aa;
+    margin: 1.5rem 0 0 0;
+    font-size: 2.5em;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    font-family: Arial Black;
+    color: white;
+}
+
+.remove-button {
+    --color-bg: #ffffff00;
+    --color-hover: #c4d08a;
+    width: 3rem;
+}
+
+/* Responsive (mobile first) */
+
+@media screen and (min-width: 350px) {
+    .hero-heading {
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .hero-heading {
+        font-size: 5em;
+    }
+}

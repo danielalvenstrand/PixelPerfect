@@ -1,0 +1,24 @@
+{
+  "name": "PixelPerfect",
+  "version": "1.0.0",
+  "description": "A Pixel Perfect Front End project.",
+  "main": "index.js",
+  "repository": "https://github.com/danielalvenstrand/PixelPerfect.git",
+  "author": "Daniel Älvenstrand <daniel.alvenstrand@backelite.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "webpack-dev-server --mode=development",
+    "build:dev": "webpack --mode=development"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.4.2",
+    "css-loader": "^0.28.10",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
