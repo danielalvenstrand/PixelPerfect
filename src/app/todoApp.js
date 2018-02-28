@@ -6,7 +6,8 @@ import '../styles/utilities.css';
 
 class TodoApp {
     /**
-     * Initializes components and binds them to the DOM
+     * The TodoApp initializes components and binds them to the DOM and enables the user to
+     * add and remove todos, and mark todos as done.
      */
     constructor() {
         /* Binds DOM elements to variables */

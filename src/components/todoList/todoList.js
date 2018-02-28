@@ -3,7 +3,8 @@ import './todoList.css';
 
 export class TodoList extends Component {
     /**
-     * Binds DOM to javascript variables and class functions to their class.
+     * The TodoList component displays all todos in a list with the functionality to mark them as done and remove them.
+     * @param element - the element reference in DOM.
      */
     constructor(element) {
         super(element);

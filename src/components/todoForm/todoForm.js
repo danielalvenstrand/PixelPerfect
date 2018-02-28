@@ -3,7 +3,9 @@ import './todoForm.css';
 
 export class TodoForm extends Component {
     /**
-     * Binds DOM to javascript variables and class functions to their class.
+     * The TodoForm component allows the user to add new todos to a list.
+     * @param element - the element reference in DOM.
+     * @param list - the 'todo' list to bind to.
      */
     constructor(element, list) {
         super(element);
