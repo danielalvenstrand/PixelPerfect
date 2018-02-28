@@ -12,8 +12,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "copy-webpack-plugin": "^4.4.2",
     "css-loader": "^0.28.10",
+    "file-loader": "^1.1.10",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
     "style-loader": "^0.20.2",

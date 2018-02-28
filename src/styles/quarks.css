@@ -16,7 +16,7 @@ Quarks
     --g_dimension-main-width: 968px;
 
     /* Global images */
-    --g_image_header_bg: url('/assets/header-bg.jpeg');
+    --g_image_header_bg: url('../../assets/header-bg.jpeg');
 }
 
 button, input {
