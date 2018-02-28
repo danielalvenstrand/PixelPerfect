@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= htmlWebpackPlugin.options.language %>">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title><%= htmlWebpackPlugin.options.title %></title>
-        <meta name="description" content="A Pixel Perfect Front End project.">
-        <meta name="author" content="Daniel Älvenstrand, Backelite">
-
-        <link rel="shortcut icon" href="favicon.ico" />
+        <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+        <meta name="author" content="<%= htmlWebpackPlugin.options.author.name %>">
     </head>
     <body>
         <header>
@@ -28,7 +26,7 @@
         </main>
         <footer>
             <p> Made for the <i>Capgemini IgnITe Pixel Perfect Front End</i> stream 2018 by
-                <a href="mailto:daniel.alvenstrand@backelite.com">Daniel Älvenstrand, Backelite</a>.
+                <a href="mailto:<%= htmlWebpackPlugin.options.author.email %>"><%= htmlWebpackPlugin.options.author.name %></a>.
             </p>
         </footer>
     </body>

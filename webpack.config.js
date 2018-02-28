@@ -26,7 +26,13 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            language: 'en',
             title: 'Pixel Perfect Front End',
+            description: 'A Pixel Perfect Front End project.',
+            author: {
+                name: 'Daniel Älvenstrand, Backelite',
+                email: 'daniel.alvenstrand@backelite.com'
+            },
             template: 'src/index.html',
             favicon: 'assets/favicon.ico'
         })
