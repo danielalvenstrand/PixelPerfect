@@ -10,6 +10,7 @@ Atoms
     text-transform: uppercase;
     font-family: Arial Black;
     color: white;
+    white-space: nowrap;
 }
 
 .remove-button {

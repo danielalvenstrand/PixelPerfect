@@ -31,6 +31,8 @@ button {
     justify-content: center;
     cursor: pointer;
     transition: background-color 300ms ease;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 button:hover {
@@ -40,6 +42,10 @@ button:hover {
 form {
     display: flex;
     justify-content: center;
+}
+
+header {
+    padding: 0 0.5rem;
 }
 
 body {
