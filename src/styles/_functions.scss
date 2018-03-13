@@ -4,3 +4,9 @@ Functions
 @function color($c) {
     @return map-get($colors, $c);
 };
+@function dimension($d) {
+    @return map-get($dimensions, $d);
+};
+@function image($i) {
+    @return map-get($images, $i);
+};

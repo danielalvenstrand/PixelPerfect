@@ -1,4 +1,4 @@
-@import '../../styles/base';
+@import '~styles/base';
 /**
 Todo Form
 */
@@ -18,7 +18,7 @@ form[name='todo-form'] {
             background-color: color(olive2);
         }
     }
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: dimension(width-s)) {
             flex-direction: row;
     }
 }

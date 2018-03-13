@@ -12,5 +12,11 @@ $colors: (
     grey4: #f0f0f0
     
 );
-$main-width: 968px;
-$header_bg_img: url('~images/header-bg.jpeg');
+$dimensions: (
+    main-width: 968px,
+    width-xs: 350px,
+    width-s: 500px
+);
+$images: (
+    header-bg: url('~images/header-bg.jpeg')
+);

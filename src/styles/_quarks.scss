@@ -38,7 +38,7 @@ body {
     }
     > header {
         background-color: white;
-        background-image: $header_bg_img;
+        background-image: image(header-bg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center 67.5%;
@@ -49,6 +49,6 @@ body {
     }
     > footer {
         padding: 0 1rem;
-        background-color: map-get($colors, grey2);
+        background-color: color(grey2);
     }
 }

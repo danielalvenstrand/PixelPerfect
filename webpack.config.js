@@ -9,7 +9,8 @@ module.exports = {
     },
     resolve: {
         alias: {
-            images: path.resolve(__dirname, 'assets/images')
+            images: path.resolve(__dirname, 'assets/images'),
+            styles: path.resolve(__dirname, 'src/styles')
         }
     },
     module: {

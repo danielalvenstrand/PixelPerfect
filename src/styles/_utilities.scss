@@ -17,7 +17,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: $main-width;
+    max-width: dimension(main-width);
 }
 
 .container-full {
