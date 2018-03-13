@@ -5,8 +5,12 @@ module.exports = {
     entry: './src/index',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
-        publicPath: '/'
+        filename: 'bundle.js'
+    },
+    resolve: {
+        alias: {
+            images: path.resolve(__dirname, 'assets/images')
+        }
     },
     module: {
         rules: [
