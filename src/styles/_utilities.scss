@@ -2,14 +2,6 @@
 Utilities
 */
 
-/* Functions */
-
-@function color($c) {
-    @return map-get($colors, $c);
-};
-
-/* Functions END */
-
 * {
     box-sizing: border-box;
 }
