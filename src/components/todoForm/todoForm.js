@@ -1,5 +1,5 @@
 import {Component, INPUT_VALUE} from '../../core';
-import './todoForm.css';
+import './todoForm.scss';
 
 export class TodoForm extends Component {
     /**

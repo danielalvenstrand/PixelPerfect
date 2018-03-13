@@ -16,6 +16,8 @@
     "file-loader": "^1.1.10",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
     "style-loader": "^0.20.2",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.9",

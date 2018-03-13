@@ -1,9 +1,5 @@
 import {TodoForm, TodoList} from '../components/index';
 
-import '../styles/quarks.css';
-import '../styles/atoms.css';
-import '../styles/utilities.css';
-
 class TodoApp {
     /**
      * The TodoApp initializes components and binds them to the DOM and enables the user to

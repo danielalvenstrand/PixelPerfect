@@ -2,6 +2,14 @@
 Utilities
 */
 
+/* Functions */
+
+@function color($c) {
+    @return map-get($colors, $c);
+};
+
+/* Functions END */
+
 * {
     box-sizing: border-box;
 }
@@ -17,7 +25,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: var(--g_dimension-main-width);
+    max-width: $main-width;
 }
 
 .container-full {

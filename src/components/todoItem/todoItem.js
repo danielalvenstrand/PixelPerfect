@@ -1,5 +1,5 @@
 import {Component} from '../../core';
-import './todoItem.css'
+import './todoItem.scss'
 
 export class TodoItem extends Component {
     /**

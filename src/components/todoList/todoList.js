@@ -1,6 +1,6 @@
 import {Component, TODOS} from '../../core';
 import {TodoItem} from '../';
-import './todoList.css';
+import './todoList.scss';
 
 export class TodoList extends Component {
     /**
